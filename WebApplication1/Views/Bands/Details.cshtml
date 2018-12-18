@@ -1,0 +1,43 @@
+﻿@using WebApplication1.Models
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Josefin+Sans|Nunito+Sans|Play">
+    <link rel="stylesheet" href="~/css/myStyles.css" />
+    <title>Details</title>
+</head>
+<body>
+    <div class="container">
+
+        <nav class="navbar fixed-top navbar-dark navBgColor">
+            <a class="navbarLogo" href="/Bands"><h3>Bands</h3></a>
+        </nav>
+
+        <div class="topDistance row">
+
+            <div class="col-lg-6">
+                @{
+                    var band = ((Band) ViewBag.Band);
+                }
+                <img class="images white img-responsive" src=@band.ImageUrl />
+            </div>
+            <div class="col-lg-6">
+                <h4>@band.Name</h4>
+                <p class="detailsParagraph">@band.Description</p>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="player white">
+                <div class="spot">
+                    <iframe src="https://open.spotify.com/embed/album/@band.Spot" width="300" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

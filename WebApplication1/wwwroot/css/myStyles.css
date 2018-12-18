@@ -1,0 +1,132 @@
+﻿body {
+    background-color: #FAF3DD;
+}
+
+.images {
+    margin: auto;
+    width: 100%;
+    max-width: 510px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.white {
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 0 10px grey;
+}
+
+.red {
+    border: 2px solid red;
+}
+
+.defaultBorder {
+    border: 2px solid #AED9E0;
+}
+
+h4 {
+    font-family: 'Play', 'Times New Roman';
+    font-size: 23px;
+    color: #5E6472;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    margin: 0;
+}
+
+.indexParagraph {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+}
+
+.detailsParagraph {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+}
+
+.topDistance {
+    margin-top: 85px;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card {
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #FAF3DD;
+    border-radius: 27px;
+    padding: 10px;
+}
+
+.card-title {
+    margin: 10px 0;
+    text-align: center
+}
+
+.card-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.navBgColor {
+    background-color: #AED9E0;
+}
+
+.navbarLogo {
+    text-transform: uppercase;
+    color: #5E6472;
+    transition: color .15s ease-in-out;
+}
+
+    .navbarLogo:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+.btn {
+    color: #ffffff;
+    border: none;
+    background-color: #FFA69E;
+    border-radius: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+    .btn:hover {
+        color: #ffffff;
+        background-color: #AED9E0;
+    }
+
+td {
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.overlay {
+    opacity: .1;
+    transition: 0.2s ease-in-out;
+}
+
+    .overlay:hover {
+        opacity: 1;
+    }
+
+.spot {
+    padding: 15px;
+    align-self: center
+}
+
+.player {
+    margin-top: 20px;
+    background-color: #000000;
+    border-radius: 20px;
+}
+
+.col-lg-6 {
+    padding: 0;
+}

@@ -1,0 +1,21 @@
+﻿@using WebApplication1.Models
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Customers</title>
+</head>
+<body>
+    <h3>Customers</h3>
+
+    @foreach(var customer in (Customer[]) ViewData["Customers"])
+    {
+        <span>@customer.CompanyName - @customer.City</span>
+        <br />
+    }
+
+
+
+</body>
+</html>
